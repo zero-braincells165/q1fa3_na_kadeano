@@ -1,0 +1,152 @@
+/* Updated CSS with custom font and import */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Noto+Serif+Display:ital,wght@0,100;0,300;1,100&family=Noto+Serif:wght@800&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #66717E, #32213A);
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to bottom, #66717E, #32213A);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 700;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #D1CAA1;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, #D1CAA1, #D4D689);
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #383B53;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+    font-size: 20px;
+    opacity: 1;
+    transition: opacity 0.3s;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    opacity: 0.8;
+    background-color: #66717E;
+}
+
+.navbar a:active {
+    opacity: 0.9;
+    background-color: #D1CAA1;
+}
+
+.navbar i {
+    margin-right: 5px;
+}
+
+main {
+    padding: 20px;
+    color: #fff;
+}
+
+section.content {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #66717E;
+    border: 1px solid #383B53;
+    font-weight: 400;
+    text-align: left;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: #D4D689;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+ol.table-of-contents {
+    list-style-type: decimal;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #D4D689;
+}
+
+ol.table-of-contents li {
+    margin: 10px 0;
+}
+
+ol.table-of-contents a {
+    text-decoration: none;
+    color: #D4D689;
+    transition: color 0.3s;
+}
+
+ol.table-of-contents a:hover {
+    color: #fff;
+}
+
+footer {
+    background-color: #32213A;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 400;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #D4D689;
+    font-size: 24px
+}
+
+img.world-map {
+    opacity: 50;
+}
+
+section.content {
+    background: url('Images/world-map.png') no-repeat center center fixed;
+    background-size: cover;
+}
